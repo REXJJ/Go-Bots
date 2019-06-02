@@ -19,5 +19,5 @@ class RandomBot(Agent):
                     candidates.append(candidate)
         if not candidates:
             return Move.pass_turn()
-    return Move.play(random.choice(candidates))
+        return Move.play(random.choice(candidates))
 
